@@ -1,0 +1,1755 @@
+Jan 12 02:25:16 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3084.[0m
+Jan 12 02:25:16 tempnode-bf3 containerd[4474]: time="2026-01-12T02:25:16Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:16 tempnode-bf3 containerd[4474]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:16 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:16 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:16 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3084 and the job result is failed.[0m
+Jan 12 02:25:21 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:21 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3085.[0m
+Jan 12 02:25:21 tempnode-bf3 containerd[4522]: time="2026-01-12T02:25:21Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:21 tempnode-bf3 containerd[4522]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:21 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:21 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:21 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3085 and the job result is failed.[0m
+Jan 12 02:25:27 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:27 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3210.[0m
+Jan 12 02:25:27 tempnode-bf3 containerd[4536]: time="2026-01-12T02:25:27Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:27 tempnode-bf3 containerd[4536]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:27 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:27 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:27 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3210 and the job result is failed.[0m
+Jan 12 02:25:32 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:32 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3335.[0m
+Jan 12 02:25:32 tempnode-bf3 containerd[4553]: time="2026-01-12T02:25:32Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:32 tempnode-bf3 containerd[4553]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:32 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:32 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:32 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3335 and the job result is failed.[0m
+Jan 12 02:25:37 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:37 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3460.[0m
+Jan 12 02:25:37 tempnode-bf3 containerd[4569]: time="2026-01-12T02:25:37Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:37 tempnode-bf3 containerd[4569]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:37 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:37 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:37 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3460 and the job result is failed.[0m
+Jan 12 02:25:42 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:42 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3585.[0m
+Jan 12 02:25:42 tempnode-bf3 containerd[4584]: time="2026-01-12T02:25:42Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:42 tempnode-bf3 containerd[4584]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:42 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:42 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:42 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3585 and the job result is failed.[0m
+Jan 12 02:25:48 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 6.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:48 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3710.[0m
+Jan 12 02:25:48 tempnode-bf3 containerd[4602]: time="2026-01-12T02:25:48Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:48 tempnode-bf3 containerd[4602]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:48 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:48 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:48 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3710 and the job result is failed.[0m
+Jan 12 02:25:53 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 7.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:53 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3835.[0m
+Jan 12 02:25:53 tempnode-bf3 containerd[4619]: time="2026-01-12T02:25:53Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:53 tempnode-bf3 containerd[4619]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:53 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:53 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:53 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3835 and the job result is failed.[0m
+Jan 12 02:25:58 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 8.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:25:58 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3960.[0m
+Jan 12 02:25:58 tempnode-bf3 containerd[4637]: time="2026-01-12T02:25:58Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:25:58 tempnode-bf3 containerd[4637]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:25:58 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:25:58 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:25:58 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3960 and the job result is failed.[0m
+Jan 12 02:26:03 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 9.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:03 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4085.[0m
+Jan 12 02:26:03 tempnode-bf3 containerd[4652]: time="2026-01-12T02:26:03Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:03 tempnode-bf3 containerd[4652]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:03 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:03 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:03 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4085 and the job result is failed.[0m
+Jan 12 02:26:09 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 10.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:09 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4210.[0m
+Jan 12 02:26:09 tempnode-bf3 containerd[4668]: time="2026-01-12T02:26:09Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:09 tempnode-bf3 containerd[4668]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:09 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:09 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:09 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4210 and the job result is failed.[0m
+Jan 12 02:26:14 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 11.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:14 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4335.[0m
+Jan 12 02:26:14 tempnode-bf3 containerd[4685]: time="2026-01-12T02:26:14Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:14 tempnode-bf3 containerd[4685]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:14 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:14 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:14 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4335 and the job result is failed.[0m
+Jan 12 02:26:19 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 12.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:19 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4587.[0m
+Jan 12 02:26:19 tempnode-bf3 containerd[4747]: time="2026-01-12T02:26:19Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:19 tempnode-bf3 containerd[4747]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:19 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:19 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:19 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4587 and the job result is failed.[0m
+Jan 12 02:26:24 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 13.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:24 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4839.[0m
+Jan 12 02:26:24 tempnode-bf3 containerd[4837]: time="2026-01-12T02:26:24Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:24 tempnode-bf3 containerd[4837]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:24 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:24 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:24 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4839 and the job result is failed.[0m
+Jan 12 02:26:30 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 14.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:30 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4964.[0m
+Jan 12 02:26:30 tempnode-bf3 containerd[4856]: time="2026-01-12T02:26:30Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:30 tempnode-bf3 containerd[4856]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:30 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:30 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:30 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4964 and the job result is failed.[0m
+Jan 12 02:26:35 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 15.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:35 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5089.[0m
+Jan 12 02:26:35 tempnode-bf3 containerd[4871]: time="2026-01-12T02:26:35Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:35 tempnode-bf3 containerd[4871]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:35 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:35 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:35 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5089 and the job result is failed.[0m
+Jan 12 02:26:40 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 16.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:40 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5214.[0m
+Jan 12 02:26:40 tempnode-bf3 containerd[4887]: time="2026-01-12T02:26:40Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:40 tempnode-bf3 containerd[4887]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:40 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:40 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:40 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5214 and the job result is failed.[0m
+Jan 12 02:26:45 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 17.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:45 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5339.[0m
+Jan 12 02:26:45 tempnode-bf3 containerd[4904]: time="2026-01-12T02:26:45Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:45 tempnode-bf3 containerd[4904]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:45 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:45 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:45 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5339 and the job result is failed.[0m
+Jan 12 02:26:51 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 18.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:51 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5464.[0m
+Jan 12 02:26:51 tempnode-bf3 containerd[4923]: time="2026-01-12T02:26:51Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:51 tempnode-bf3 containerd[4923]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:51 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:51 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:51 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5464 and the job result is failed.[0m
+Jan 12 02:26:56 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 19.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:26:56 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5589.[0m
+Jan 12 02:26:56 tempnode-bf3 containerd[4940]: time="2026-01-12T02:26:56Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:26:56 tempnode-bf3 containerd[4940]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:26:56 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:26:56 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:26:56 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5589 and the job result is failed.[0m
+Jan 12 02:27:01 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 20.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:01 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5714.[0m
+Jan 12 02:27:01 tempnode-bf3 containerd[4957]: time="2026-01-12T02:27:01Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:01 tempnode-bf3 containerd[4957]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:01 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:01 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:01 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5714 and the job result is failed.[0m
+Jan 12 02:27:06 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 21.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:06 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5839.[0m
+Jan 12 02:27:06 tempnode-bf3 containerd[4973]: time="2026-01-12T02:27:06Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:06 tempnode-bf3 containerd[4973]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:06 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:06 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:06 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5839 and the job result is failed.[0m
+Jan 12 02:27:12 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 22.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:12 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5964.[0m
+Jan 12 02:27:12 tempnode-bf3 containerd[4989]: time="2026-01-12T02:27:12Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:12 tempnode-bf3 containerd[4989]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:12 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:12 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:12 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5964 and the job result is failed.[0m
+Jan 12 02:27:17 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 23.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:17 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6089.[0m
+Jan 12 02:27:17 tempnode-bf3 containerd[5006]: time="2026-01-12T02:27:17Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:17 tempnode-bf3 containerd[5006]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:17 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:17 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:17 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6089 and the job result is failed.[0m
+Jan 12 02:27:22 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 24.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:22 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6340.[0m
+Jan 12 02:27:22 tempnode-bf3 containerd[5023]: time="2026-01-12T02:27:22Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:22 tempnode-bf3 containerd[5023]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:22 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:22 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:22 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6340 and the job result is failed.[0m
+Jan 12 02:27:27 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 25.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:27 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6466.[0m
+Jan 12 02:27:27 tempnode-bf3 containerd[5068]: time="2026-01-12T02:27:27Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:27 tempnode-bf3 containerd[5068]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:27 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:27 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:27 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6466 and the job result is failed.[0m
+Jan 12 02:27:33 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 26.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:33 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6591.[0m
+Jan 12 02:27:33 tempnode-bf3 containerd[5084]: time="2026-01-12T02:27:33Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:33 tempnode-bf3 containerd[5084]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:33 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:33 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:33 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6591 and the job result is failed.[0m
+Jan 12 02:27:38 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 27.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:38 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6716.[0m
+Jan 12 02:27:38 tempnode-bf3 containerd[5104]: time="2026-01-12T02:27:38Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:38 tempnode-bf3 containerd[5104]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:38 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:38 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:38 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6716 and the job result is failed.[0m
+Jan 12 02:27:43 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 28.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:43 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6841.[0m
+Jan 12 02:27:43 tempnode-bf3 containerd[5120]: time="2026-01-12T02:27:43Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:43 tempnode-bf3 containerd[5120]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:43 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:43 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:43 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6841 and the job result is failed.[0m
+Jan 12 02:27:48 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 29.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:48 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6966.[0m
+Jan 12 02:27:48 tempnode-bf3 containerd[5138]: time="2026-01-12T02:27:48Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:48 tempnode-bf3 containerd[5138]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:48 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:48 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:48 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 6966 and the job result is failed.[0m
+Jan 12 02:27:54 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 30.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:54 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7091.[0m
+Jan 12 02:27:54 tempnode-bf3 containerd[5156]: time="2026-01-12T02:27:54Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:54 tempnode-bf3 containerd[5156]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:54 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:54 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:54 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7091 and the job result is failed.[0m
+Jan 12 02:27:59 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 31.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:27:59 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7216.[0m
+Jan 12 02:27:59 tempnode-bf3 containerd[5171]: time="2026-01-12T02:27:59Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:27:59 tempnode-bf3 containerd[5171]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:27:59 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:27:59 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:27:59 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7216 and the job result is failed.[0m
+Jan 12 02:28:04 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 32.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:04 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7341.[0m
+Jan 12 02:28:04 tempnode-bf3 containerd[5185]: time="2026-01-12T02:28:04Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:04 tempnode-bf3 containerd[5185]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:04 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:04 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:04 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7341 and the job result is failed.[0m
+Jan 12 02:28:09 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 33.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:09 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7466.[0m
+Jan 12 02:28:09 tempnode-bf3 containerd[5201]: time="2026-01-12T02:28:09Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:09 tempnode-bf3 containerd[5201]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:09 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:09 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:09 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7466 and the job result is failed.[0m
+Jan 12 02:28:15 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 34.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:15 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7591.[0m
+Jan 12 02:28:15 tempnode-bf3 containerd[5216]: time="2026-01-12T02:28:15Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:15 tempnode-bf3 containerd[5216]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:15 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:15 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:15 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7591 and the job result is failed.[0m
+Jan 12 02:28:20 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 35.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:20 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7716.[0m
+Jan 12 02:28:20 tempnode-bf3 containerd[5235]: time="2026-01-12T02:28:20Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:20 tempnode-bf3 containerd[5235]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:20 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:20 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:20 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7716 and the job result is failed.[0m
+Jan 12 02:28:25 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 36.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:25 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7841.[0m
+Jan 12 02:28:25 tempnode-bf3 containerd[5255]: time="2026-01-12T02:28:25Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:25 tempnode-bf3 containerd[5255]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:25 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:25 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:25 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7841 and the job result is failed.[0m
+Jan 12 02:28:30 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 37.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:28:30 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8218.[0m
+Jan 12 02:28:30 tempnode-bf3 containerd[5350]: time="2026-01-12T02:28:30Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:28:30 tempnode-bf3 containerd[5350]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:28:30 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:28:30 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:28:30 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8218 and the job result is failed.[0m
+Jan 12 02:28:36 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 38.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:26 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8469.[0m
+Jan 12 02:29:26 tempnode-bf3 containerd[5378]: time="2026-01-12T02:29:26Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:26 tempnode-bf3 containerd[5378]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:26 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:26 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:26 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8469 and the job result is failed.[0m
+Jan 12 02:29:31 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 39.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:31 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8595.[0m
+Jan 12 02:29:31 tempnode-bf3 containerd[5429]: time="2026-01-12T02:29:31Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:31 tempnode-bf3 containerd[5429]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:31 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:31 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:31 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8595 and the job result is failed.[0m
+Jan 12 02:29:36 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 40.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:36 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8720.[0m
+Jan 12 02:29:36 tempnode-bf3 containerd[5447]: time="2026-01-12T02:29:36Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:36 tempnode-bf3 containerd[5447]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:36 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:36 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:36 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8720 and the job result is failed.[0m
+Jan 12 02:29:42 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 41.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:42 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8845.[0m
+Jan 12 02:29:42 tempnode-bf3 containerd[5463]: time="2026-01-12T02:29:42Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:42 tempnode-bf3 containerd[5463]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:42 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:42 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:42 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8845 and the job result is failed.[0m
+Jan 12 02:29:47 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 42.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:47 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8970.[0m
+Jan 12 02:29:47 tempnode-bf3 containerd[5479]: time="2026-01-12T02:29:47Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:47 tempnode-bf3 containerd[5479]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:47 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:47 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:47 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8970 and the job result is failed.[0m
+Jan 12 02:29:52 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 43.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:52 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9095.[0m
+Jan 12 02:29:52 tempnode-bf3 containerd[5495]: time="2026-01-12T02:29:52Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:52 tempnode-bf3 containerd[5495]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:52 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:52 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:52 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9095 and the job result is failed.[0m
+Jan 12 02:29:57 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 44.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Jan 12 02:29:57 tempnode-bf3 systemd[1]: Starting containerd.service - containerd container runtime...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9220.[0m
+Jan 12 02:29:57 tempnode-bf3 containerd[5561]: time="2026-01-12T02:29:57Z" level=error msg="containerd config version `3` is not supported, the max version is `2`, use `containerd config default` to generate a new config or manually revert to version `2`"
+Jan 12 02:29:57 tempnode-bf3 containerd[5561]: containerd: failed to load TOML from /etc/containerd/config.toml: unsupported config version `3`
+Jan 12 02:29:57 tempnode-bf3 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcontainerd.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit containerd.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Jan 12 02:29:57 tempnode-bf3 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mcontainerd.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit containerd.service has entered the 'failed' state with result 'exit-code'.[0m
+Jan 12 02:29:57 tempnode-bf3 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start containerd.service - containerd container runtime.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit containerd.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit containerd.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9220 and the job result is failed.[0m
+Jan 12 02:30:03 tempnode-bf3 systemd[1]: containerd.service: Scheduled restart job, restart counter is at 45.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit containerd.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m

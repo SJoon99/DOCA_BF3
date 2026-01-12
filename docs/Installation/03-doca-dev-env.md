@@ -33,6 +33,19 @@
 - 운영 이미지는 경량/표준화
 - 버전 재현성 보장
 
+
+### HOST
+```bash
+docker pull nvcr.io/nvidia/doca/doca:3.2.0-devel-ubuntu24.04-host
+```
+- host 전용 이미지 
+
+### DPU
+```bash
+docker pull nvcr.io/nvidia/doca/doca:3.2.0-devel-ubuntu24.04
+```
+- dpu 전용 이미지
+
 ---
 
 ## **4. 파일 공유 방식**
